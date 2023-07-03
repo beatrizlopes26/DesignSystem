@@ -1,0 +1,38 @@
+.bt-persona-background {
+  background: #FAF9F8;
+  height: 70px;
+}
+
+.left-decoration {
+  position: absolute;
+  top: 0;
+  left: 0;
+  z-index: 1;
+  opacity: 0.05;
+}
+
+.right-decoration {
+  position: absolute;
+  bottom: 0;
+  right: 0;
+  z-index: 1;
+  opacity: 0.05;
+}
+
+.bt-persona-background-small {
+  background: #FAF9F8;
+  height: 70px;
+  width: 25%;
+}
+
+.bt-persona-background-medium {
+  background: #FAF9F8;
+  height: 70px;
+  width: 50%;
+}
+
+.bt-persona-background-large {
+  background: #FAF9F8;
+  height: 70px;
+  width: 75%;
+}/*# sourceMappingURL=Persona.module.css.map */

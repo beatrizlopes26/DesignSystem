@@ -1,0 +1,9 @@
+@import '../../index.scss';
+
+.btControlToolBar{
+    background-color: $bt-controlToolBar-background-color;
+    &:hover {
+        background-color: $bt-controlToolBar-hover-background-color;
+        color: $bt-controlToolBar-color;
+    }
+}

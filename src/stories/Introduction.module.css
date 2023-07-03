@@ -1,0 +1,13 @@
+.fontFamilyTitle {
+  font-family: "Red Hat Display", sans-serif;
+}
+
+ul {
+  -moz-columns: 3;
+       columns: 3;
+  list-style-type: none;
+}
+
+h4 {
+  text-decoration: underline;
+}/*# sourceMappingURL=Introduction.module.css.map */

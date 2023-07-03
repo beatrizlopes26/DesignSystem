@@ -1,0 +1,624 @@
+.container {
+  display: inline-flex;
+  font-family: "Red Hat Display", sans-serif;
+  flex-direction: column;
+  text-align: center;
+}
+
+.hide {
+  display: none;
+  color: #000000;
+}
+
+.colorDefault {
+  box-sizing: border-box;
+  width: 175px;
+  height: 80px;
+  margin-top: 20px;
+  background: #ffffff;
+  border: 0.2px solid #000000;
+}
+.colorDefault:hover {
+  background-color: #D2D0CE;
+  cursor: pointer;
+}
+.colorDefault:hover .hide {
+  display: inline;
+  top: 30px;
+  position: relative;
+}
+.colorDefault:hover .hide label {
+  cursor: pointer;
+}
+.colorDefault:hover .labelContainer, .colorDefault:hover .labelContainerHex {
+  display: none;
+}
+
+.labelContainer {
+  position: relative;
+  top: 20px;
+  color: #000000;
+}
+
+.labelContainerHex {
+  position: relative;
+  top: 20px;
+  color: #000000;
+}
+
+.colorDefault2 {
+  box-sizing: border-box;
+  width: 175px;
+  height: 80px;
+  margin-top: 20px;
+  background: #000000;
+  border: 0.2px solid #000000;
+}
+.colorDefault2:hover {
+  background-color: #605E5C;
+  cursor: pointer;
+}
+.colorDefault2:hover .hide {
+  display: inline;
+  top: 30px;
+  position: relative;
+  color: #ffffff;
+}
+.colorDefault2:hover .hide label {
+  cursor: pointer;
+}
+.colorDefault2:hover .labelContainer2, .colorDefault2:hover .labelContainerHex2 {
+  display: none;
+}
+
+.labelContainer2 {
+  position: relative;
+  top: 20px;
+  color: #ffffff;
+}
+
+.labelContainerHex2 {
+  position: relative;
+  top: 20px;
+  color: #ffffff;
+}
+
+.colorPrimary {
+  background-color: #323130;
+  box-sizing: border-box;
+  width: 175px;
+  height: 80px;
+  margin-top: 20px;
+  border: 0.2px solid #000000;
+}
+.colorPrimary:hover {
+  background-color: #605E5C;
+  cursor: pointer;
+}
+.colorPrimary:hover .hide {
+  display: inline;
+  top: 20px;
+  position: relative;
+  color: #ffffff;
+}
+.colorPrimary:hover .hide label {
+  cursor: pointer;
+}
+.colorPrimary:hover .labelContainer2, .colorPrimary:hover .labelContainerHex2 {
+  display: none;
+}
+
+.colorPrimary2 {
+  background-color: #3B3A39;
+  box-sizing: border-box;
+  margin-top: 20px;
+  width: 175px;
+  height: 80px;
+  border: 0.2px solid #000000;
+}
+.colorPrimary2:hover {
+  background-color: #605E5C;
+  cursor: pointer;
+}
+.colorPrimary2:hover .hide {
+  display: inline;
+  top: 20px;
+  position: relative;
+  color: #ffffff;
+}
+.colorPrimary2:hover .hide label {
+  cursor: pointer;
+}
+.colorPrimary2:hover .labelContainer2, .colorPrimary2:hover .labelContainerHex2 {
+  display: none;
+}
+
+.colorPrimary3 {
+  background-color: #8764B8;
+  box-sizing: border-box;
+  margin-top: 20px;
+  width: 175px;
+  height: 80px;
+  border: 0.2px solid #000000;
+}
+.colorPrimary3:hover {
+  background-color: #B29AD4;
+  cursor: pointer;
+}
+.colorPrimary3:hover .hide {
+  display: inline;
+  top: 20px;
+  position: relative;
+  color: #ffffff;
+}
+.colorPrimary3:hover .hide label {
+  cursor: pointer;
+}
+.colorPrimary3:hover .labelContainer2, .colorPrimary3:hover .labelContainerHex2 {
+  display: none;
+}
+
+.colorNeutral {
+  background-color: #201F1E;
+  box-sizing: border-box;
+  margin-top: 20px;
+  width: 175px;
+  height: 80px;
+  border: 0.2px solid #000000;
+}
+.colorNeutral:hover {
+  background-color: #605E5C;
+  cursor: pointer;
+}
+.colorNeutral:hover .hide {
+  display: inline;
+  top: 20px;
+  position: relative;
+  color: #ffffff;
+}
+.colorNeutral:hover .hide label {
+  cursor: pointer;
+}
+.colorNeutral:hover .labelContainer2, .colorNeutral:hover .labelContainerHex2 {
+  display: none;
+}
+
+.colorNeutral4 {
+  background-color: #605E5C;
+  box-sizing: border-box;
+  margin-top: 20px;
+  width: 175px;
+  height: 80px;
+  border: 0.2px solid #000000;
+}
+.colorNeutral4:hover {
+  background-color: #605E5C;
+  cursor: pointer;
+}
+.colorNeutral4:hover .hide {
+  display: inline;
+  top: 20px;
+  position: relative;
+  color: #ffffff;
+}
+.colorNeutral4:hover .hide label {
+  cursor: pointer;
+}
+.colorNeutral4:hover .labelContainer2, .colorNeutral4:hover .labelContainerHex2 {
+  display: none;
+}
+
+.colorNeutral5 {
+  background-color: #8A8886;
+  box-sizing: border-box;
+  margin-top: 20px;
+  width: 175px;
+  height: 80px;
+  border: 0.2px solid #000000;
+}
+.colorNeutral5:hover {
+  background-color: #605E5C;
+  cursor: pointer;
+}
+.colorNeutral5:hover .hide {
+  display: inline;
+  top: 20px;
+  position: relative;
+  color: #ffffff;
+}
+.colorNeutral5:hover .hide label {
+  cursor: pointer;
+}
+.colorNeutral5:hover .labelContainer2, .colorNeutral5:hover .labelContainerHex2 {
+  display: none;
+}
+
+.colorNeutral6 {
+  background-color: #A19F9D;
+  box-sizing: border-box;
+  margin-top: 20px;
+  width: 175px;
+  height: 80px;
+  border: 0.2px solid #000000;
+}
+.colorNeutral6:hover {
+  background-color: #605E5C;
+  cursor: pointer;
+}
+.colorNeutral6:hover .hide {
+  display: inline;
+  top: 20px;
+  position: relative;
+  color: #ffffff;
+}
+.colorNeutral6:hover .hide label {
+  cursor: pointer;
+}
+.colorNeutral6:hover .labelContainer2, .colorNeutral6:hover .labelContainerHex2 {
+  display: none;
+}
+
+.colorNeutral7 {
+  background-color: #C8C6C4;
+  box-sizing: border-box;
+  margin-top: 20px;
+  width: 175px;
+  height: 80px;
+  border: 0.2px solid #000000;
+}
+.colorNeutral7:hover {
+  background-color: #D2D0CE;
+  cursor: pointer;
+}
+.colorNeutral7:hover .hide {
+  display: inline;
+  top: 20px;
+  position: relative;
+}
+.colorNeutral7:hover .hide label {
+  cursor: pointer;
+}
+.colorNeutral7:hover .labelContainer, .colorNeutral7:hover .labelContainerHex {
+  display: none;
+}
+
+.colorNeutral8 {
+  background-color: #D2D0CE;
+  box-sizing: border-box;
+  margin-top: 20px;
+  width: 175px;
+  height: 80px;
+  border: 0.2px solid #000000;
+}
+.colorNeutral8:hover {
+  background-color: #D2D0CE;
+  cursor: pointer;
+}
+.colorNeutral8:hover .hide {
+  display: inline;
+  top: 20px;
+  position: relative;
+}
+.colorNeutral8:hover .hide label {
+  cursor: pointer;
+}
+.colorNeutral8:hover .labelContainer, .colorNeutral8:hover .labelContainerHex {
+  display: none;
+}
+
+.colorNeutral9 {
+  background-color: #E1DFDD;
+  box-sizing: border-box;
+  margin-top: 20px;
+  width: 175px;
+  height: 80px;
+  border: 0.2px solid #000000;
+}
+.colorNeutral9:hover {
+  background-color: #D2D0CE;
+  cursor: pointer;
+}
+.colorNeutral9:hover .hide {
+  display: inline;
+  top: 20px;
+  position: relative;
+}
+.colorNeutral9:hover .hide label {
+  cursor: pointer;
+}
+.colorNeutral9:hover .labelContainer, .colorNeutral9:hover .labelContainerHex {
+  display: none;
+}
+
+.colorNeutral10 {
+  background-color: #EDEBE9;
+  box-sizing: border-box;
+  margin-top: 20px;
+  width: 175px;
+  height: 80px;
+  border: 0.2px solid #000000;
+}
+.colorNeutral10:hover {
+  background-color: #D2D0CE;
+  cursor: pointer;
+}
+.colorNeutral10:hover .hide {
+  display: inline;
+  top: 20px;
+  position: relative;
+}
+.colorNeutral10:hover .hide label {
+  cursor: pointer;
+}
+.colorNeutral10:hover .labelContainer, .colorNeutral10:hover .labelContainerHex {
+  display: none;
+}
+
+.colorNeutral11 {
+  background-color: #F3F2F1;
+  box-sizing: border-box;
+  margin-top: 20px;
+  width: 175px;
+  height: 80px;
+  border: 0.2px solid #000000;
+}
+.colorNeutral11:hover {
+  background-color: #D2D0CE;
+  cursor: pointer;
+}
+.colorNeutral11:hover .hide {
+  display: inline;
+  top: 20px;
+  position: relative;
+}
+.colorNeutral11:hover .hide label {
+  cursor: pointer;
+}
+.colorNeutral11:hover .labelContainer, .colorNeutral11:hover .labelContainerHex {
+  display: none;
+}
+
+.colorNeutral12 {
+  background-color: #FAF9F8;
+  box-sizing: border-box;
+  margin-top: 20px;
+  width: 175px;
+  height: 80px;
+  border: 0.2px solid #000000;
+}
+.colorNeutral12:hover {
+  background-color: #D2D0CE;
+  cursor: pointer;
+}
+.colorNeutral12:hover .hide {
+  display: inline;
+  top: 20px;
+  position: relative;
+}
+.colorNeutral12:hover .hide label {
+  cursor: pointer;
+}
+.colorNeutral12:hover .labelContainer, .colorNeutral12:hover .labelContainerHex {
+  display: none;
+}
+
+.colorTheme {
+  background-color: #4B3867;
+  box-sizing: border-box;
+  margin-top: 20px;
+  width: 175px;
+  height: 80px;
+  border: 0.2px solid #000000;
+}
+.colorTheme:hover {
+  background-color: #B29AD4;
+  cursor: pointer;
+}
+.colorTheme:hover .hide {
+  display: inline;
+  top: 20px;
+  position: relative;
+  color: #ffffff;
+}
+.colorTheme:hover .hide label {
+  cursor: pointer;
+}
+.colorTheme:hover .labelContainer2, .colorTheme:hover .labelContainerHex2 {
+  display: none;
+}
+
+.colorTheme2 {
+  background-color: #664B8C;
+  box-sizing: border-box;
+  margin-top: 20px;
+  width: 175px;
+  height: 80px;
+  border: 0.2px solid #000000;
+}
+.colorTheme2:hover {
+  background-color: #B29AD4;
+  cursor: pointer;
+}
+.colorTheme2:hover .hide {
+  display: inline;
+  top: 20px;
+  position: relative;
+  color: #ffffff;
+}
+.colorTheme2:hover .hide label {
+  cursor: pointer;
+}
+.colorTheme2:hover .labelContainer2, .colorTheme2:hover .labelContainerHex2 {
+  display: none;
+}
+
+.colorTheme3 {
+  background-color: #7959A5;
+  box-sizing: border-box;
+  margin-top: 20px;
+  width: 175px;
+  height: 80px;
+  border: 0.2px solid #000000;
+}
+.colorTheme3:hover {
+  background-color: #B29AD4;
+  cursor: pointer;
+}
+.colorTheme3:hover .hide {
+  display: inline;
+  top: 20px;
+  position: relative;
+  color: #ffffff;
+}
+.colorTheme3:hover .hide label {
+  cursor: pointer;
+}
+.colorTheme3:hover .labelContainer2, .colorTheme3:hover .labelContainerHex2 {
+  display: none;
+}
+
+.colorTheme4 {
+  background-color: #8764B8;
+  box-sizing: border-box;
+  margin-top: 20px;
+  width: 175px;
+  height: 80px;
+  border: 0.2px solid #000000;
+}
+.colorTheme4:hover {
+  background-color: #B29AD4;
+  cursor: pointer;
+}
+.colorTheme4:hover .hide {
+  display: inline;
+  top: 20px;
+  position: relative;
+  color: #ffffff;
+}
+.colorTheme4:hover .hide label {
+  cursor: pointer;
+}
+.colorTheme4:hover .labelContainer2, .colorTheme4:hover .labelContainerHex2 {
+  display: none;
+}
+
+.colorTheme5 {
+  background-color: #9372C0;
+  box-sizing: border-box;
+  margin-top: 20px;
+  width: 175px;
+  height: 80px;
+  border: 0.2px solid #000000;
+}
+.colorTheme5:hover {
+  background-color: #B29AD4;
+  cursor: pointer;
+}
+.colorTheme5:hover .hide {
+  display: inline;
+  top: 20px;
+  position: relative;
+  color: #ffffff;
+}
+.colorTheme5:hover .hide label {
+  cursor: pointer;
+}
+.colorTheme5:hover .labelContainer2, .colorTheme5:hover .labelContainerHex2 {
+  display: none;
+}
+
+.colorTheme6 {
+  background-color: #B29AD4;
+  box-sizing: border-box;
+  margin-top: 20px;
+  width: 175px;
+  height: 80px;
+  border: 0.2px solid #000000;
+}
+.colorTheme6:hover {
+  background-color: #E9E2F4;
+  cursor: pointer;
+}
+.colorTheme6:hover .hide {
+  display: inline;
+  top: 20px;
+  position: relative;
+}
+.colorTheme6:hover .hide label {
+  cursor: pointer;
+}
+.colorTheme6:hover .labelContainer, .colorTheme6:hover .labelContainerHex {
+  display: none;
+}
+
+.colorTheme7 {
+  background-color: #D7C9EA;
+  box-sizing: border-box;
+  margin-top: 20px;
+  width: 175px;
+  height: 80px;
+  border: 0.2px solid #000000;
+}
+.colorTheme7:hover {
+  background-color: #E9E2F4;
+  cursor: pointer;
+}
+.colorTheme7:hover .hide {
+  display: inline;
+  top: 20px;
+  position: relative;
+}
+.colorTheme7:hover .hide label {
+  cursor: pointer;
+}
+.colorTheme7:hover .labelContainer, .colorTheme7:hover .labelContainerHex {
+  display: none;
+}
+
+.colorTheme8 {
+  background-color: #E9E2F4;
+  box-sizing: border-box;
+  margin-top: 20px;
+  width: 175px;
+  height: 80px;
+  border: 0.2px solid #000000;
+}
+.colorTheme8:hover {
+  background-color: #E9E2F4;
+  cursor: pointer;
+}
+.colorTheme8:hover .hide {
+  display: inline;
+  top: 20px;
+  position: relative;
+}
+.colorTheme8:hover .hide label {
+  cursor: pointer;
+}
+.colorTheme8:hover .labelContainer, .colorTheme8:hover .labelContainerHex {
+  display: none;
+}
+
+.colorTheme9 {
+  background-color: #F9F8FC;
+  box-sizing: border-box;
+  margin-top: 20px;
+  width: 175px;
+  height: 80px;
+  border: 0.2px solid #000000;
+}
+.colorTheme9:hover {
+  background-color: #E9E2F4;
+  cursor: pointer;
+}
+.colorTheme9:hover .hide {
+  display: inline;
+  top: 20px;
+  position: relative;
+}
+.colorTheme9:hover .hide label {
+  cursor: pointer;
+}
+.colorTheme9:hover .labelContainer, .colorTheme9:hover .labelContainerHex {
+  display: none;
+}/*# sourceMappingURL=Colors.module.css.map */

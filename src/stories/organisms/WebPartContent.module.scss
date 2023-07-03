@@ -1,0 +1,45 @@
+@import '../../index.scss';
+
+.btButtonAction{
+  background-color: $bt-button-action-background-color;
+  margin-right: 5px;
+  margin-top: 5px;
+    
+}
+.textAreaTitle{
+    margin-top: 10px;
+    line-height: 24px;
+    ::placeholder{
+        color: $neutral-quaternary;
+        font-size: 20px;
+        font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif
+    }
+}
+
+.stackWidth{
+    width: 100%;
+
+}
+.stackheight{
+    height: 30px;
+    bottom: 0;
+}
+.celebrationsCard{
+    width: 60%;
+    height: 400px;
+
+}
+.alignImage{
+    margin-top:18px;
+}
+.btControlToolBar{
+    background-color: $bt-controlToolBar-background-color;
+    &:hover {
+        background-color: $bt-controlToolBar-hover-background-color;
+        color: $bt-controlToolBar-color;
+    }
+}
+.containerbg{
+    background: $neutral-light;
+    height: 250px;
+}

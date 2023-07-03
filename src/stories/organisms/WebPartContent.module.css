@@ -1,0 +1,51 @@
+.btButtonAction {
+  background-color: #F3F2F1;
+  margin-right: 5px;
+  margin-top: 5px;
+}
+
+.textAreaTitle {
+  margin-top: 10px;
+  line-height: 24px;
+}
+.textAreaTitle ::-moz-placeholder {
+  color: #D2D0CE;
+  font-size: 20px;
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+}
+.textAreaTitle ::placeholder {
+  color: #D2D0CE;
+  font-size: 20px;
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+}
+
+.stackWidth {
+  width: 100%;
+}
+
+.stackheight {
+  height: 30px;
+  bottom: 0;
+}
+
+.celebrationsCard {
+  width: 60%;
+  height: 400px;
+}
+
+.alignImage {
+  margin-top: 18px;
+}
+
+.btControlToolBar {
+  background-color: #FAF9F8;
+}
+.btControlToolBar:hover {
+  background-color: #F3F2F1;
+  color: #323130;
+}
+
+.containerbg {
+  background: #EDEBE9;
+  height: 250px;
+}/*# sourceMappingURL=WebPartContent.module.css.map */

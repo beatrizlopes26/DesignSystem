@@ -1,0 +1,12 @@
+@import '../index.scss';
+
+.fontFamilyTitle{
+    font-family: $bt-font-family;
+}
+ul {
+  columns: 3;
+  list-style-type: none;
+}
+h4{
+  text-decoration: underline;
+}

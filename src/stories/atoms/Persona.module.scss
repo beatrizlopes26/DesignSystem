@@ -1,0 +1,34 @@
+@import '../../index.scss';
+.bt-persona-background{
+    background: $bt-persona-background-color;
+    height: $bt-persona-height;
+}
+.left-decoration{
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: 1;
+    opacity: .05;
+}
+.right-decoration{
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    z-index: 1;
+    opacity: .05;
+}
+.bt-persona-background-small{
+    background: $bt-persona-background-color;
+    height: $bt-persona-height;
+    width: $bt-persona-width-small;
+}
+.bt-persona-background-medium{
+    background: $bt-persona-background-color;
+    height: $bt-persona-height;
+    width: $bt-persona-width-medium;
+}
+.bt-persona-background-large{
+    background: $bt-persona-background-color;
+    height: $bt-persona-height;
+    width: $bt-persona-width-large;
+}
